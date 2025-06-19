@@ -2,9 +2,6 @@
 
 A flexible GFF3-to-BED converter with dynamic attribute parsing, multi-criteria filtering, and intelligent column ordering.
 
-[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## Why g2bpy?
 
 While excellent GFF3-to-BED converters exist, `g2bpy` fills a specific niche for researchers who need:
@@ -116,7 +113,7 @@ Unlike tools requiring pre-specification of attributes, `g2bpy` automatically:
 - **Error tolerance**: Continues processing despite malformed lines
 - **Progress reporting**: Real-time feedback during processing
 
-## 🔄 When to Use Alternative Tools
+## When to Use Alternative Tools
 
 `g2bpy` prioritizes flexibility and correctness over raw speed. Consider these alternatives for specific use cases:
 
@@ -133,7 +130,7 @@ Unlike tools requiring pre-specification of attributes, `g2bpy` automatically:
 ### For R/Bioconductor Workflows
 - **[rtracklayer](https://bioconductor.org/packages/rtracklayer/)** - Seamless R integration
 
-## 📊 Feature Comparison
+## Feature Comparison
 
 | Feature                   | g2bpy | gxf2bed | BEDOPS  | AGAT    | UCSC    |
 |---------------------------|--------------|---------|---------|---------|---------|
